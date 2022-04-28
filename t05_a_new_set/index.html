@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Superhero application</title>
+    <meta name="description" content="t08. Superhero application" charset="utf-8">
+    <link rel="stylesheet" type ="text/css" href="style.css">
+</head>
+<body>
+<h1>New Avenger application</h1>
+<div class="message">
+    <h2>Post</h2>
+<span id="arr">
+
+</span>
+</div>
+<div>
+<form id="form">
+    <fieldset>
+        <legend>About the Superhero</legend>
+            <p>
+                <span>Name</span>
+                <input type="text" name="name" placeholder="Name" size="18" autofocus id="name">
+                <span>E-mail</span>
+                <input type="text" name="E-mail" placeholder="E-mail" size="18"  id="mail">
+                <span>Age</span>
+                <input type="number" name="age" min="1" max="999" step="1" size="5"  id="age">
+                <br><br>
+                <span>About</span>
+                <textarea name="about" id="about" cols="70" rows="5" maxlength="500"  id="about" placeholder="Tell about yourself, max 500 symbols"></textarea>
+                <br>
+            </p>
+            <p>
+                <span>Your photo:</span>
+                <input type="file" name="photo" name="Choose File" id="fileInput">
+            </p>
+    </fieldset>
+    <button type="reset" name="clear" value="CLEAR" class="button" id="rese">CLEAR</button>
+    <button type="submit" name="send" value="SEND"  class="button">SEND</button>
+</form>
+</div>
+
+
+<!-- <script src ="form.js"> </script> -->
+</body>
+</html>
